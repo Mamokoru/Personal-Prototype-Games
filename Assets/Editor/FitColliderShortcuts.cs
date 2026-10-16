@@ -33,7 +33,7 @@ public class FitColliderShortcuts
         // Apply to the Box Collider
         boxCollider.center = localCenter;
         boxCollider.size = localSize;
-
+        
         Debug.Log($"Successfully fit BoxCollider to '{selectedObj.name}' mesh bounds.");
     }
 }
