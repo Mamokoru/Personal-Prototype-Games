@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2397248579141803369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6188654995136663374}
+  - component: {fileID: 2610845560931080905}
+  - component: {fileID: 2496386856408331198}
+  - component: {fileID: 461841257304356349}
+  m_Layer: 0
+  m_Name: FiringFood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6188654995136663374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397248579141803369}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2610845560931080905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397248579141803369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a3e0cda43ecf141a94d88264646ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bhudev.p2.MoveForward
+  Speed: 40
+--- !u!114 &2496386856408331198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397248579141803369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85402c5670586c46839a2c955e353d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bhudev.p2.DestroyOutOfBounds
+--- !u!114 &461841257304356349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397248579141803369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a375903a7e01a946977f481ea74e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomizeProjectile
+  projectilePrefabs:
+  - {fileID: 1180137445707430, guid: 84cd279dfc9ea0a4b8564030182915fa, type: 3}
+  - {fileID: 157538, guid: 1f17d257118ec324ca772c5b2bacbb14, type: 3}
+  - {fileID: 100000, guid: 10d25933610222845ad3760a855829c4, type: 3}
+  - {fileID: 100000, guid: f9125fa89572f1e40bb082978a85b951, type: 3}
+  - {fileID: 160006, guid: 245ebd2bf811d4f45a1d5dcd8c327131, type: 3}
+  - {fileID: 101770, guid: c13306d1f1d9a1a489199ef77f9dba89, type: 3}
+  - {fileID: 126446, guid: c2f4b43f266dc11439efef86830dafb4, type: 3}
+  - {fileID: 181360, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
+  - {fileID: 120208, guid: 4949a22a2c444b0459d7289aae77be28, type: 3}
+  - {fileID: 100000, guid: 06cdf427476835b42837c1ca7f8cdbd1, type: 3}
+  - {fileID: 100000, guid: 5b10c1fadcedc4347b929c94cb50d5d3, type: 3}
+  - {fileID: 116614, guid: 9f063c5e5835cbd4b8dc54a6c0b45db4, type: 3}
+  - {fileID: 100000, guid: ca03aa5ab3af9f147aa60e7b8d131fe3, type: 3}
